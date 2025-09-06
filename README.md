@@ -9,7 +9,7 @@
 
 ---
 
-## 1. Installation
+## 1. Installation and Requirements
 
 ### Option A: Conda
 ```bash
