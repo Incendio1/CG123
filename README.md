@@ -1,21 +1,21 @@
-# Redefining interpretable graph representation learning for cancer gene identification via width scaling under heterophily
+# CGMap: Path-Aware, Width-Guided Graph Representation Learning for Cancer Gene Identification
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Framework: PyTorch](https://img.shields.io/badge/framework-PyTorch-%23EE4C2C.svg)](https://pytorch.org/)
+> **Code & data accompanying the manuscript submitted to _Nature Machine Intelligence_.**  
+> This repository provides a minimal, reproducible implementation of CGMap for cancer gene (CG) prioritization on biomolecular networks (PPI, PathNet, GGNet), along with scripts for training, evaluation, ablation, and interpretability analyses.
 
-This is the official repository for the paper **"CGMap: A Path-Aware Framework for Robust Cancer Gene Identification via Graph Representation Learning"**,
-accepted for publication at *Nature Machine Intelligence*.
+---
 
-**Authors:** [Your Name]*, [Co-Author 1]*, [Co-Author 2], [Corresponding Author] (* denotes equal contribution)
+## Highlights
+- **Path-aware, width-guided propagation** to capture multi-hop dependencies without cross-layer noise.
+- **Heterophily-ready**: robust on networks where CGs are topologically sparse and dispersed.
+- **Reproducible**: single-command experiments with fixed seeds and exact configs.
+- **Lightweight**: modular PyTorch codebase; easy to extend for new datasets.
 
-**Abstract:** Deciphering latent cancer driver genes is critical for advancing clinical interventions and therapeutic development. However, oncogenesis arises from cumulative genomic alterations and regulatory interactions, presenting challenges of topological heterophily, long-range dependency, and multiscale synergy. CGMap is a novel graph representation learning framework driven by width perspective and path awareness to address these challenges. It robustly identifies cancer genes under heterophily, outperforming 12 baseline methods, and achieves up to three orders of magnitude speedup, enabling large-scale molecular network analysis.
+---
 
-## 🚀 Key Features
+## 1. Installation
 
-- **Heterophily-Robust Learning:** Effectively captures cancer gene signals in topologically sparse, heterophilic graphs.
-- **Path-Aware Architecture:** Leverages shortest-path-based hierarchical messaging to avoid redundancy and capture fine-grained dependencies.
-- **Scalability & Efficiency:** Achieves superior computational performance, ideal for genome-scale networks.
-- **Reproducibility:** All code, pre-processed data, and scripts to replicate the paper's figures and tables are provided.
-
-## 📦 Repository Structure
+### Option A: Conda
+```bash
+conda env create -f environment.yml
+conda activate cgmap
