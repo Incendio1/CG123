@@ -1,6 +1,6 @@
 # Redefining interpretable graph representation learning for cancer gene identification via width scaling under heterophily
 
-> **The implementation of CGMap & data accompanying the manuscript submitted to _Nature Machine Intelligence_.**   
+>  **The implementation of CGMap & data accompanying the manuscript submitted to _XX_.**   
 
 ---
 
