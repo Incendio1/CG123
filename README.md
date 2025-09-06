@@ -16,7 +16,7 @@
 Python 3.8
 PyTorch 1.12.1, 
 PyTorch Geometric 2.6.1
-CUDA > 11.3  
+CUDA 11.3  
 
 
 
