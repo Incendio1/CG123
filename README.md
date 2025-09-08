@@ -14,8 +14,14 @@ Graph representation learning is emerging as a promising alternative for identif
 ### Requirements
 ```bash
 Python Version: 3.8
-PyTorch Version: 1.12.1, 
+PyTorch Version: 1.12.1
 CUDA Version: 11.3
+Numpy Version: 1.24.3
+Pandas Version: 2.0.2
+Networkx Version: 3.1
+Pytroch Geometric Version: 2.3.1
+scikit-learn Version: 1.2.2
+
 ```
 
 ### Installation
