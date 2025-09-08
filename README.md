@@ -14,12 +14,18 @@ Graph representation learning is emerging as a promising alternative for identif
 
 ## 1. Installation and Requirements
 
-### Option A: Conda
+### Requirements
 ```bash
-Python 3.8
-PyTorch 1.12.1, 
-PyTorch Geometric 2.6.1
-CUDA 11.3  
+Python Version: 3.8
+PyTorch Version: 1.12.1, 
+CUDA Version: 11.3
+
+### Installation
+```bash
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.12.1+cu113.html
+pip install torch-sparse -f https://pytorch-f https://pytorch-geometric.com/whl/torch-1.12.1+cu113.html
+pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.12.1+cu113.html
+pip install pytorch-geometric
 
 
 
