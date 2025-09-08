@@ -1,6 +1,6 @@
 # Redefining interpretable graph representation learning for cancer gene identification 
 
->  **The implementation of CGMap & data accompanying the manuscript submitted to _XX_.**   
+>  **The implementation of CGMap & data accompanying the manuscript submitted to _Nature Machine Intelligence_.**   
 
 ---
 
