@@ -7,8 +7,9 @@
 ## Abstract
 This project is the open code for CGMap, where each gene is represented as a node. It identifies cancer genes through a width-oriented parallel propagation and a path diffusion mechanism. CGMap demonstrates outstanding performance, stability, and resistance to over-smoothing, while maintaining generalization capabilities under data bias, noise, and structural incompleteness. Its inherent interpretability supports model decisions by elucidating regulatory pathways and revealing topologically distant gene dependencies.
 
-<img width="2128" height="1592" alt="image" src="https://github.com/user-attachments/assets/cbf11ba6-fc90-4ae9-bb31-d90f54653a96" />
----
+<img width="2117" height="1599" alt="image" src="https://github.com/user-attachments/assets/b91dacd9-44f4-414c-ae57-80401ac5bb2b" />
+
+
 
 ## Requirements and Installation  
 
