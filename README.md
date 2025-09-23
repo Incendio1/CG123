@@ -1,4 +1,4 @@
-# Redefining interpretable graph representation learning for cancer gene identification 
+# Advancing interpretable cancer gene identification via width scaling graph representation learning 
 
 >  **The implementation of CGMap & data accompanying the manuscript submitted to _Nature Machine Intelligence_.**   
 
